@@ -7,15 +7,15 @@
 <ion-content padding class="home">
     Select / Take some pictures
     <br>
-    <button dark (click)="openCamera()">                
+    <button ion-button large (click)="openCamera()">                
         Open camera
     </button>
     <br>
-    <button dark (click)="openAlbums()">                
+    <button ion-button large (click)="openAlbums()">                
         Open albums
     </button>
     <br>
-    <button dark [hidden]="images.length == 0" (click)="startUploading()">                
+    <button ion-button large [hidden]="images.length == 0" (click)="startUploading()">                
         Start uploading
     </button>
     

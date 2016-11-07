@@ -12,10 +12,10 @@ import {UploadingPage} from '../uploading/uploading';
 export class HomePage {
 
   images: Array<string> = [];
-  private nav:NavController = null; // Thomas
+  //private nav:NavController = null; // Thomas
 
   constructor(private plugins: Plugins, 
-              public navCtrl: NavController) {
+              private navCtrl: NavController) {
     
   }
 
@@ -38,7 +38,10 @@ export class HomePage {
   }
   
   startUploading = () : void => {
-    this.nav.setRoot(UploadingPage, {
+    //this.nav.setRoot(UploadingPage, {
+    //    images: this.images
+    //});
+    this.navCtrl.push(UploadingPage, {
         images: this.images
     });    
   }
