@@ -5,18 +5,18 @@
 </ion-header>
 
 <ion-content padding class="home">
-    Select / Take some pictures
+    Select pictures from your gallery or take pictures to upload.
     <br>
-    <button ion-button large (click)="openCamera()">                
-        Open camera
+    <button ion-button large full (click)="openCamera()">                
+        Camera
     </button>
     <br>
-    <button ion-button large (click)="openAlbums()">                
-        Open albums
+    <button ion-button large full (click)="openAlbums()">                
+        Gallery
     </button>
     <br>
-    <button ion-button large [hidden]="images.length == 0" (click)="startUploading()">                
-        Start uploading
+    <button ion-button large full [hidden]="images.length == 0" (click)="startUploading()">                
+        Upload
     </button>
     
       <div class="items">
