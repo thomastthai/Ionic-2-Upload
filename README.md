@@ -17,4 +17,4 @@ Here is my system setup:
 - Ionic App Scripts Version: 0.0.39
 - Node Version: v6.9.1
 
-Check out my ,a href="https://github.com/thomastthai/">node-photo-server</a> as a companion to this demo.
+Check out my <a href="https://github.com/thomastthai/node-photo-server">node-photo-server</a> as a companion to this demo.
